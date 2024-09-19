@@ -26,7 +26,7 @@ public class StringManipulations01 {
         //Bu method olmayan karakterler icin -1 verir
 
         int startingINdex = a.indexOf("@"); // @ den sonrasına da +1 yazılabilir
-        int endingIndex = a.indexOf(".");  //lastindexof olursa hata vermiyor
+        int endingIndex = a.indexOf(".");  //lastindexof olursa ab.c@gmail.com olsa da hata vermiyor
 
         String companyName = a.substring(startingINdex+1, endingIndex);
         System.out.println(companyName);
