@@ -24,7 +24,7 @@ public class StringManipulations03 {
 
         // 1- Parola hicbir sey girilmeden gecilmemeli, en az bir karakter icermelidir.
 
-        String pwd = "a ";
+        String pwd = "";
 
         boolean first = pwd.isEmpty();
         System.out.println(first);
