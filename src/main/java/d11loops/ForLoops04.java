@@ -28,7 +28,7 @@ public class ForLoops04 {
 
                 System.out.print("x ");
             }
-            System.out.println(); //üstte ki priny yanyana yazdırır. pointerı bir alta aldk
+            System.out.println(); //üstte ki print yanyana yazdırır. pointerı bir alta aldk
 
         }
 

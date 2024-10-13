@@ -1,5 +1,7 @@
 package d6if_switch;
 
+import java.util.Scanner;
+
 public class Switch01 {
 
     public static void main(String[] args) {
@@ -64,6 +66,8 @@ public class Switch01 {
 
         //toLowerCase() metodu, bir String içindeki tüm harfleri küçük harfe
         // dönüştürmek için kullanılır.
+
+
 
         switch (dayName.toLowerCase()) {
 

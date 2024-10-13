@@ -9,7 +9,7 @@ public class ForLoops01 {
 
 
         int sum = 0;
-        for (int i = 578; i > 0; i = i / 10) { //i /=10;
+        for (int i = 578; i > 0; i = i / 10) { //  i /=10;
             sum = sum + i % 10;
 
 

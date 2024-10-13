@@ -2,7 +2,7 @@ package d18datetime_stringbuilder;
 
 import d19stringbuilder_buffer_accessmodifier_static.Student;
 
-public class AnotherPackagaClass {
+public class AnotherPackageClass {
 
     public static void main(String[] args) {
 
