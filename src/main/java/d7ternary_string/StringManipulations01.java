@@ -10,7 +10,7 @@ public class StringManipulations01 {
         //Ornek 1: "s" String'inde kullanilan karakter sayisini bulunuz.
         //Example 1: Find the number of characters used in String "s".
 
-        String s = "Java is easy";
+        String s = "Java is easy programmers are nice";
 
         //length() methodu String’in uzunlugunu dondurur.1’den baslar
 
@@ -73,7 +73,7 @@ public class StringManipulations01 {
         //contains() method'u herhangi bir karakterin veya karakterlerin String'de var olup olmadigini kontrol eder.
         //contains() methodu true veya false return eder. boolean
 
-        boolean isExist = s.contains("Eas");
+        boolean isExist = s.contains("eas");
         System.out.println(isExist);
 
         //Ornek 7: “s” String’inin belli bir harfle baslayip baslamadigini kontrol ediniz.
@@ -90,7 +90,7 @@ public class StringManipulations01 {
         //endsWith() methodu bir Strig'in son karakterini/karakterlerini kontrol eder
         //endsWith() methodu boolean return eder.
 
-        boolean isEnd = s.endsWith("easy");
+        boolean isEnd = s.endsWith("nice");
         System.out.println(isEnd);
 
 

@@ -19,8 +19,8 @@ public class WhileLoops02 {
         System.out.println("Lütfen sayı giriniz");
         int num = input.nextInt();
 
-        int i = 1;
-        while (i < 11) {
+        int i = 0;
+        while (i <= 10) {
 
             System.out.println(num + "x" + i + "=" + (num * i));
             i++;

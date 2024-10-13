@@ -53,7 +53,7 @@ public class IfStatements03 {
 
             }
 
-        } else if (gender.equalsIgnoreCase("Kadın")) {
+        } else if (gender.equalsIgnoreCase("Kadın") ) {
 
             if (age<0) {
                 System.out.println("Yaş negatif olamaz");

@@ -21,7 +21,7 @@ public class IfStatements02 {
         String day = input.next();
 
         boolean isWeekendDay = day.equalsIgnoreCase("Cumartesi") ||
-                day.equals("Pazar");
+                day.equalsIgnoreCase("Pazar");
 
         boolean isWeekday = day.equalsIgnoreCase("Pazartesi") ||
                 day.equalsIgnoreCase("Salı") ||

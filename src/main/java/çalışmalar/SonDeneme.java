@@ -85,11 +85,16 @@ public class SonDeneme {
         }
         System.out.println(total);
 
-        System.out.println("-----------------------------");
-       int sayıt= line.split("c")[0].replaceAll("[^aA]","").length();
-        System.out.println(sayıt);
 
         System.out.println("-----------------------------");
+
+        for (int i = 0; i < 5 ; i++) {
+
+            for (int j = 0; j <5 ; j++) {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
 
 
     }
