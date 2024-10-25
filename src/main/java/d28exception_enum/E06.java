@@ -26,6 +26,7 @@ public class E06 {
             System.err.println("Null değeriyle lenght metotunu kullanmayınız");
         }
 
+
     }
 
 

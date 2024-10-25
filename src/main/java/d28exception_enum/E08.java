@@ -44,6 +44,7 @@ public class E08 {
 
         int k = 0;
 
+
         while ((k = fis.read()) != -1) {
             System.out.print((char)(k));//Type casting yaptık
         }

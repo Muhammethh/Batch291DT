@@ -13,7 +13,7 @@ public class ExceptionRunner {
         //System.out.println(not);
         if (not<0 || not>100){
             try {
-                throw new InvalidStudentGradeException("Öğrenci note 0dan küçük veya 100den büyük olamaz");
+                throw new InvalidStudentGradeException("Öğrenci notu 0dan küçük veya 100den büyük olamaz");
             } catch (InvalidStudentGradeException e) {
                 e.printStackTrace();
             }

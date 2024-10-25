@@ -26,8 +26,10 @@ public class ExceptionRunner2 {
 	final:
     Değişkenler İçin: final keyword'uyle tanımlanan bir variable sadece bir kez değer alabilir.
     Bu, değişkenin değerinin sonradan değiştirilemeyeceği anlamına gelir. Yani, bu değişken sabittir (constant)
+
     Metotlar İçin: final keyword'uyle tanımlanan bir metot, child class'lar tarafından
     override edilemez.
+
     Class'lar İçin: final keyword'uyle tanımlanan bir class, genişletilemez (extends edilemez).
     Yani bu class'in child'i olmaz.
 
